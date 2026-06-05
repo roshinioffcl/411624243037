@@ -2,27 +2,66 @@
 <html>
     <head>
         <title> My Website</title>
+        <link rel = "stylesheet" href = "style.css">
+        <!-- internal css -->
+        <!-- <style>
+            body{
+                font-family: 'Courier New', Courier, monospace;
+            }
+        </style> -->
     </head>
-    <body>
-        <p>This is my First Class</p>
+    <!-- inline css -->
+    <body style = "color : rgb(0, 0, 0);">
+        <p id = "p1">This is my First Class</p>
+        <p id = "p2">This is my Second class</p>
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>
         <h3>Heading 3</h3>
         <h4>Heading 4</h4>
         <h5>Heading 5</h5>
         <h6>Heading 6</h6>
-        <!-- <img src="image.png">
-        <video controls>
-            <source src = "video.mp4" type="video/mp4"
-        </video> -->
-        <ol>
-            <li>1st point</li>
-            <li>2nd point</li>
-        </ol>
-        <ul>
-            <li>1st point</li>
-            <li>2nd point</li>
-        </ul>
+        <div class = "imgvideo">
+            <img src="image.png"/>
+        </div>
+        <div class = "imgvideo">
+            <video controls>
+                <source src = "video.mp4" type="video/mp4"
+            </video>
+        </div>
+        <nav>
+            <ol>
+                <li>1st point</li>
+                <li>2nd point</li>
+                <li>3rd point</li>
+            </ol>
+            <ul>
+                <li>1st point</li>
+                <li>2nd point</li>
+                <li>3rd point</li>
+            </ul>
+        </nav>
+        <div class = "grid">
+            <div id = "one">1</div>
+            <div id = "two">2</div>
+            <div id = "three">3</div>
+            <div id = "four">4</div>
+            <div id = "five">5</div>
+            <div id = "six">6</div>
+        </div>
+        <div class = "jjk">
+            <div id = "gojo">
+                <img src = "img1.jpg">
+            </div>
+            <div id = "megumi">
+                <img src = "img2.jpg">
+            </div>
+            <div id = "choso">
+                <img src = "img3.jpg">
+            </div>
+            <div id = "geto">
+                <img src = "img4.jpg">
+            </div>
+        </div>
         <header></header>
         <footer></footer>
         <nav>
@@ -64,5 +103,6 @@
             <textarea rows = "4" cols = "3"></textarea><br>
             <button>Submit</button>
         </form>
+
     </body>
 </html>
